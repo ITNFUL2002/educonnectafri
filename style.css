@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #1a73e8, #e8f0ff);
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+}
+
+.logo {
+    font-size: 5.8em;
+    color: #ffcc00;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #c70039;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.logo-img {
+    height: 190px; /* Adjust size */
+    width: auto;  /* Maintain aspect ratio */
+    margin-right: 150px; /* Space between logo and text */
+    vertical-align: middle; /* Align with text */
+}
